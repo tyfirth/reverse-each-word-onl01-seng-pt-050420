@@ -9,6 +9,6 @@ def reverse_each_word(string)
     backwords << word.reverse 
   end
   
-  backwords
+  backwords.join(" ")
   
 end

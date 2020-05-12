@@ -6,9 +6,9 @@ def reverse_each_word(string)
   words = string.split(" ") 
   
   words.each do |word|
-    backwords << word.reverse 
+     word.reverse 
   end
   
-  backwords
+  words
   
 end
